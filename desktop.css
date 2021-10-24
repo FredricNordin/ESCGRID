@@ -38,11 +38,8 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 }
 
 .menu1 { grid-area: menu1; }
-
 .menu2 { grid-area: menu2; }
-
 .menu3 { grid-area: menu3; }
-
 .menu4 { grid-area: menu4; }
 
 /* BIG IMAGE */
@@ -72,9 +69,7 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 }
 
 .button1 { grid-area: button1; }
-
 .button2 { grid-area: button2; }
-
 .button3 { display: none; }
 
 
@@ -91,11 +86,8 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 }
 
 .testimonial1 { grid-area: testimonial1; }
-
 .testimonial2 { grid-area: testimonial2; font-size: 30px; }
-
 .testimonial3 { grid-area: testimonial3;  }
-
 .testimonial4 { grid-area: testimonial4; font-size: 30px; }
 
 
@@ -112,31 +104,23 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 }
 
 .challenge1-img { grid-area: challenge1-img; background-color: #dfe6ed; border-style: solid solid hidden solid; }
-
 .challenge2-img { grid-area: challenge2-img; background-color: #dfe6ed; border-style: solid solid hidden solid; }
-
 .challenge3-img { grid-area: challenge3-img; background-color: #dfe6ed; border-style: solid solid hidden solid; }
 
 .challenge1-text { grid-area: challenge1-text; border-style: hidden solid solid solid; }
-
 .challenge2-text { grid-area: challenge2-text; border-style: hidden solid solid solid; }
-
 .challenge3-text { grid-area: challenge3-text; border-style: hidden solid solid solid; }
-
-#challenges-title { text-align: center; font-size: 42px; margin-top: 80px; }
 
 .rating { margin-top: 200px; margin-left: 30px; }
 
+#challenges-title { text-align: center; font-size: 42px; margin-top: 80px; }
 .challenge-title { margin-left: 20px; }
 
 .participants { margin-left: 20px; }
-
 .challenge-description { margin-left: 20px; }
 
 .challenge-btn1 { font-size: 24px; margin-left: 125px; margin-top: 10px; }
-
 .challenge-btn2 { font-size: 24px; margin-left: 195px; margin-top: 10px; }
-
 .challenge-btn3 { font-size: 24px; margin-left: 195px; margin-top: 10px; }
 
 
@@ -175,11 +159,9 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 }
 
 .img1 { grid-area: img1; background-color: #dfe6ed; }
-
 .img2 { grid-area: img2; background-color: #dfe6ed; }
 
 .text1 { grid-area: text1; }
-
 .text2 { grid-area: text2; }
 
 .foursquares h2 { margin-top: 60px; margin-left: 50px; font-size: 38px; }
@@ -201,7 +183,5 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 }
 
 .footertext1 { grid-area: footertext1; margin-top: 50px; margin-left: 50px;}
-
 .footertext2 { grid-area: footertext2; margin-top: 50px; }
-
 .footertext3 { grid-area: footertext3; margin-top: 50px; }
