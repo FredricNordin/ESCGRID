@@ -1,13 +1,15 @@
 body { font-family: Arial, Helvetica, sans-serif }
 
 a { text-decoration: none; color: black; font-size: 24px; }
+button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
+
 
 /* LOGO & TITLE */
 .header {
   display: grid;
-  grid-template-columns: 300px 2fr 128px;
+  grid-template-columns: 300px auto;
   grid-template-rows: 130px;
-  gap: 0px 3px;
+  gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
     "logo title menu";
@@ -15,12 +17,12 @@ a { text-decoration: none; color: black; font-size: 24px; }
 }
 
 .logo { grid-area: logo; }
+.title { grid-area: title; }
 
-.esc { font-size: 60px; margin-top: -105px; margin-left: 140px; }
-
-.title { grid-area: title; font-size: 26px; }
-
+.esc { margin-left: 150px; margin-top: -100px; font-size: 52px; }
+.title-text { font-size: 52px; }
 .menu-btn { grid-area: menu; display: none; }
+
 
 /* MENU NAVBAR */
 .menu {
@@ -55,7 +57,7 @@ a { text-decoration: none; color: black; font-size: 24px; }
 
 .bigimage { grid-area: bigimage; background-color: #dfe6ed; }
 
-
+/* BIG BUTTONS */
 .bigButtons {
   display: grid;
   grid-template-columns: auto 350px 350px auto;
@@ -73,7 +75,7 @@ a { text-decoration: none; color: black; font-size: 24px; }
 
 .button2 { grid-area: button2; }
 
-button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
+.button3 { display: none; }
 
 
 
@@ -96,45 +98,4 @@ button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
 
 .testimonial4 { grid-area: testimonial4; font-size: 30px; }
 
-@media only screen and (max-width: 1100px) {
-  .esc { font-size: 40px; }
- 
-  .title { font-size: 16px; margin-left: -162px; margin-top: 50px; }
-}
 
-
-
-@media only screen and (max-width: 900px) {
-
-  #logo-img { width: 64px; height: 64px; }
-
-  .esc { font-size: 18px; margin-top: -60px; margin-left: 80px; }
- 
-  .title { grid-area: logo / menu; font-size: 8px; margin-left: -225px; margin-top: 30px; }
-
-  .menu-btn { display: unset; }
-
-  #menu-img { width: 55px; height: 55px; }
-
-  .menu1 { display: none; }
-
-  .menu2 { display: none; }
-
-  .menu3 { display: none; }
-
-  .menu4 { display: none; }
-
-  .bigimage-container { grid-template-rows: 300px; }
-  
-  .button1 { grid-column: button1; }
-
-  .button2 { display: none;}
-
-  .testimonial1 { margin-left: -100px; }
-
-  .testimonial2 { grid-column: testimonial1; font-size: 18px; margin-left: 50px; }
-
-  .testimonial3 { display: none; }
-
-  .testimonial4 { display: none;}
-}

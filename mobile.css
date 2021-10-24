@@ -1,0 +1,82 @@
+body { font-family: Arial, Helvetica, sans-serif }
+
+a { color: rgb(92, 35, 248); font-size: 24px; }
+button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
+
+/* LOGO & TITLE */
+.header {
+  display: grid;
+  grid-template-columns: 128 1fr 128px;
+  grid-template-rows: 130px;
+  justify-items: center;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "logo title menu";
+  height: 100px;
+}
+
+.logo { grid-area: logo; }
+.title { grid-area: title; }
+#logo-img { width: 64px; }
+.esc { font-size: 18px; margin-left: 80px; margin-top: -60px; }
+.title-text { font-size: 12px; margin-left: -100px; margin-top: 30px; }
+
+/* MENU NAVBAR */
+.menu-btn { grid-area: menu;}
+#menu-img { width: 36px; }
+.menu { display: none; }
+
+
+/* BIG IMAGE */
+.bigimage-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 220px;
+    grid-template-areas:
+      "bigimage bigimage bigimage";
+  }
+  
+    .bigimage { grid-area: bigimage; background-color: #dfe6ed; }
+
+
+/* BIG BUTTONS */
+  .bigButtons {
+    display: grid;
+    grid-template-columns: auto 350px auto;
+    grid-template-rows: 100px;
+    margin-top: -50px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      ". button1 ."
+      ". button2 .";
+  }
+
+    button { color: white; background-color: rgb(41, 91, 255); font-size: 20px; padding: 10px 40px; }
+    .button1 { display: none; }
+    .button2 { grid-area: button1; }
+    .button3 { grid-area: button2;  }
+
+
+/* TESTIMONIALS */
+.testimonials {
+    display: grid;
+    grid-template-columns: 64px auto;
+    grid-template-rows: 150px;
+    margin-top: 60px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "testimonial1 testimonial2 .";
+  }
+  
+  .testimonial-img { width: 64px; height: 64px; }
+
+  .testimonial1 { grid-area: testimonial1; }
+  
+  .testimonial2 { grid-area: testimonial2; font-size: 20px; margin-left: 10px; }
+  
+  .testimonial3 { display: none; }
+  
+  .testimonial4 { display: none; }
