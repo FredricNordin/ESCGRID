@@ -1,7 +1,7 @@
 body { font-family: Arial, Helvetica, sans-serif }
 
 a { text-decoration: none; color: black; font-size: 24px; }
-button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
+button { color: white; background-color: #6d54f4; font-size: 35px; border-radius: 5px; padding: 10px;}
 
 
 /* LOGO & TITLE */
@@ -83,7 +83,7 @@ button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
 .testimonials {
   display: grid;
   grid-template-columns: 100px auto auto auto auto 100px;
-  grid-template-rows: 300px;
+  grid-template-rows: 200px;
   margin-top: 60px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -99,3 +99,109 @@ button { color: white; background-color: rgb(41, 91, 255); font-size: 35px; }
 .testimonial4 { grid-area: testimonial4; font-size: 30px; }
 
 
+/* POPULAR CHALLANGES */
+.challanges {
+  display: grid;
+  grid-template-columns: auto 400px 400px 400px auto;
+  grid-template-rows: 250px 250px;
+  gap: 0px 50px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". challenge1-img challenge2-img challenge3-img ."
+    ". challenge1-text challenge2-text challenge3-text .";
+}
+
+.challenge1-img { grid-area: challenge1-img; background-color: #dfe6ed; border-style: solid solid hidden solid; }
+
+.challenge2-img { grid-area: challenge2-img; background-color: #dfe6ed; border-style: solid solid hidden solid; }
+
+.challenge3-img { grid-area: challenge3-img; background-color: #dfe6ed; border-style: solid solid hidden solid; }
+
+.challenge1-text { grid-area: challenge1-text; border-style: hidden solid solid solid; }
+
+.challenge2-text { grid-area: challenge2-text; border-style: hidden solid solid solid; }
+
+.challenge3-text { grid-area: challenge3-text; border-style: hidden solid solid solid; }
+
+#challenges-title { text-align: center; font-size: 42px; margin-top: 80px; }
+
+.rating { margin-top: 200px; margin-left: 30px; }
+
+.challenge-title { margin-left: 20px; }
+
+.participants { margin-left: 20px; }
+
+.challenge-description { margin-left: 20px; }
+
+.challenge-btn1 { font-size: 24px; margin-left: 125px; margin-top: 10px; }
+
+.challenge-btn2 { font-size: 24px; margin-left: 195px; margin-top: 10px; }
+
+.challenge-btn3 { font-size: 24px; margin-left: 195px; margin-top: 10px; }
+
+
+/* ALL CHALLENGES BUTTONS */
+.all-challenges {
+  display: flex;
+  gap: 50px;
+  width: 800px;
+  margin: 100px auto;
+}
+
+.all-challenges-button { background-color: white; color: #6d54f4; border-color: #6d54f4; padding: 10px 20px; }
+
+
+/* OUR STORY */
+.our-story {
+  display: flex;
+  width: 900px;
+  margin: 150px auto;
+}
+
+.story-text { font-size: 28px; text-align: center; }
+.story-button { font-size: 22px; background-color: white; color: #6d54f4; border-color: #6d54f4; padding: 10px 20px; }
+
+
+/* FOUR SQUARES */
+.foursquares {
+  display: grid;
+  grid-template-columns: auto 800px 800px auto;
+  grid-template-rows: 500px 500px;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". img1 text1 ."
+    ". text2 img2 .";
+}
+
+.img1 { grid-area: img1; background-color: #dfe6ed; }
+
+.img2 { grid-area: img2; background-color: #dfe6ed; }
+
+.text1 { grid-area: text1; }
+
+.text2 { grid-area: text2; }
+
+.foursquares h2 { margin-top: 60px; margin-left: 50px; font-size: 38px; }
+.foursquares p { margin-left: 50px; font-size: 28px; }
+.foursquares button { font-size: 32x; margin-top: 20px; margin-left: 50px; padding: 10px 30px;}
+
+/* FOOTER TEXTS */
+.footer {
+  margin-top: 200px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "footertext1 footertext2 footertext3";
+    background-color: #dfe6ed;
+}
+
+.footertext1 { grid-area: footertext1; margin-top: 50px; margin-left: 50px;}
+
+.footertext2 { grid-area: footertext2; margin-top: 50px; }
+
+.footertext3 { grid-area: footertext3; margin-top: 50px; }
