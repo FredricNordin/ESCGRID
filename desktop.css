@@ -185,3 +185,42 @@ button { color: white; background-color: #6d54f4; font-size: 35px; border-radius
 .footertext1 { grid-area: footertext1; margin-top: 50px; margin-left: 50px;}
 .footertext2 { grid-area: footertext2; margin-top: 50px; }
 .footertext3 { grid-area: footertext3; margin-top: 50px; }
+
+@media only screen and (max-width: 1500px) {
+
+  .challanges {
+  zoom: 0.9;
+  -moz-transform: scale(0.9);
+  }
+
+  .foursquares {
+    zoom: 0.9;
+    -moz-transform: scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+  .testimonials {
+  zoom: 0.9;
+  -moz-transform: scale(0.9);
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+
+  .testimonials {
+  zoom: 0.8;
+  -moz-transform: scale(0.8);
+  }
+
+  .challanges {
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
+    }
+  
+    .foursquares {
+      zoom: 0.8;
+      -moz-transform: scale(0.8);
+      }
+}
